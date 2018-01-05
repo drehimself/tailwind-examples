@@ -272,7 +272,7 @@
                         <div>
                             <div class="mb-4">
                                 <p class="mb-6">Create a Responsive Card Component by Composing Tailwind's Utility Classes - <a href="#">#html</a> lesson by <a href="#">@simonswiss</a></p>
-                                <div class="flex border border-solid border-gray rounded">
+                                <div class="flex border border-solid border-grey rounded">
                                     <div class="w-1/4">
                                         <img src="/img/tweet4.jpg" alt="image">
                                     </div>
