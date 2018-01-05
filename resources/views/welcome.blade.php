@@ -42,31 +42,31 @@
                 </div>
                 <div class="w-full lg:w-1/2">
                     <ul class="list-reset flex">
-                        <li class="text-center py-3 px-4 border-b-2 border-solid border-teal">
+                        <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Tweets</div>
                                 <div class="text-lg tracking-tight font-bold text-teal">60</div>
                             </a>
                         </li>
-                        <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent hover:border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Following</div>
                                 <div class="text-lg tracking-tight font-bold hover:text-teal">4</div>
                             </a>
                         </li>
-                        <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent hover:border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Followers</div>
                                 <div class="text-lg tracking-tight font-bold hover:text-teal">3,810</div>
                             </a>
                         </li>
-                        <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent hover:border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Likes</div>
                                 <div class="text-lg tracking-tight font-bold hover:text-teal">9</div>
                             </a>
                         </li>
-                        <li class="text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
+                        <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent hover:border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
                                 <div class="text-sm font-bold tracking-tight mb-1">Moments</div>
                                 <div class="text-lg tracking-tight font-bold hover:text-teal">1</div>
