@@ -895,7 +895,7 @@ module.exports = {
       },
       variants: ['responsive'],
     }),
-    require('glhd-tailwindcss-transitions').default(),
+    require('glhd-tailwindcss-transitions')(),
   ],
 
   /*

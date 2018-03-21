@@ -22,6 +22,6 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "glhd-tailwindcss-transitions": "^0.2.0"
+        "glhd-tailwindcss-transitions": "^0.3.0"
     }
 }
