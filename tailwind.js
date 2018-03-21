@@ -47,6 +47,7 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
+  'grey-custom': '#e4eaef',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -463,6 +464,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '128': '32rem',
     '1/2': '50%',
     '1/3': '33.33333%',
     '2/3': '66.66667%',
@@ -659,6 +661,7 @@ module.exports = {
     '2': '0.5rem',
     '3': '0.75rem',
     '4': '1rem',
+    '5': '1.25rem',
     '6': '1.5rem',
     '8': '2rem',
     '24': '6rem',
@@ -842,7 +845,7 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
-    opacity: ['responsive'],
+    opacity: ['responsive', 'hover'],
     overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: ['responsive'],
@@ -864,6 +867,36 @@ module.exports = {
     zIndex: ['responsive'],
   },
 
+  /*
+  |-----------------------------------------------------------------------------
+  | Plugins                                https://tailwindcss.com/docs/plugins
+  |-----------------------------------------------------------------------------
+  |
+  | Here is where you can register any plugins you'd like to use in your
+  | project. Tailwind's built-in `container` plugin is enabled by default to
+  | give you a Bootstrap-style responsive container component out of the box.
+  |
+  | Be sure to view the complete plugin documentation to learn more about how
+  | the plugin system works.
+  |
+  */
+
+  plugins: [
+    require('tailwindcss/plugins/container')({
+      // center: true,
+      // padding: '1rem',
+    }),
+    require('./plugins/css-grid')({
+      grids: [2, 3, 5, 6, 8, 10, 12],
+      gaps: {
+        0: '0',
+        4: '1rem',
+        8: '2rem',
+      },
+      variants: ['responsive'],
+    }),
+    require('glhd-tailwindcss-transitions').default(),
+  ],
 
   /*
   |-----------------------------------------------------------------------------
