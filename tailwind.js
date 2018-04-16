@@ -46,6 +46,9 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
+  'blue-wp-pusher': '#1179bf',
+  'green-wp-pusher': '#038e7d',
+
   'black': '#22292f',
   'grey-custom': '#e4eaef',
   'grey-darkest': '#3d4852',
@@ -194,6 +197,12 @@ module.exports = {
   */
 
   fonts: {
+    'wp-pusher': [
+      'Lato',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif',
+    ],
     'sans': [
       '-apple-system',
       'BlinkMacSystemFont',
@@ -259,6 +268,7 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    '5.5xl': '4.125rem',
   },
 
 
@@ -466,6 +476,7 @@ module.exports = {
     '64': '16rem',
     '128': '32rem',
     '1/2': '50%',
+    '1/2-almost': '48%',
     '1/3': '33.33333%',
     '2/3': '66.66667%',
     '1/4': '25%',
@@ -582,6 +593,7 @@ module.exports = {
     'sm': '30rem',
     'md': '40rem',
     'lg': '50rem',
+    'wp-pusher': '56rem',
     'xl': '60rem',
     '2xl': '70rem',
     '3xl': '80rem',
@@ -635,6 +647,7 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '10': '2.5rem',
   },
 
 
@@ -664,6 +677,8 @@ module.exports = {
     '5': '1.25rem',
     '6': '1.5rem',
     '8': '2rem',
+    '10': '2.5rem',
+    '16': '4rem',
     '24': '6rem',
   },
 

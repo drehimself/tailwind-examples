@@ -12,7 +12,7 @@ let tailwindcss = require('tailwindcss');
  |
  */
 
-mix.postCss('resources/assets/css/youtube.css', 'public/css', [
+mix.postCss('resources/assets/css/wp-pusher.css', 'public/css', [
   tailwindcss('./tailwind.js'),
 ])
 .browserSync('tailwind-examples.test');
