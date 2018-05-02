@@ -100,6 +100,9 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
+  'blue-resolute': '#149ED4',
+  'blue-resolute-dark': '#0B799E',
+  'blue-resolute-icon': '#A7B7C7',
   'blue-darkest': '#12283a',
   'blue-darker': '#1c3d5a',
   'blue-dark': '#2779bd',
@@ -911,6 +914,9 @@ module.exports = {
       variants: ['responsive'],
     }),
     require('glhd-tailwindcss-transitions')(),
+    require('tailwindcss-tables')({
+      cellPadding: '1rem',  // default: .75rem
+    }),
   ],
 
   /*

@@ -22,3 +22,7 @@ Route::get('/youtube', function () {
 Route::get('/wp-pusher', function () {
     return view('wp-pusher');
 });
+
+Route::get('/resolute', function () {
+    return view('resolute');
+});
