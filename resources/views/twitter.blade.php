@@ -7,7 +7,7 @@
 
         <title>Tailwind Example - Twitter</title>
 
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/twitter.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     </head>
@@ -27,7 +27,7 @@
                         <input type="text" class="bg-grey-lighter h-8 px-4 py-2 text-xs w-48 rounded-full" placeholder="Search Twitter">
                         <span class="flex items-center absolute pin-r pin-y mr-3"><i class="fa fa-search text-grey"></i></span>
                     </div>
-                    <div class="mr-4"><a href="#"><img src="/img/avatar.jpg" alt="avatar" class="h-8 w-8 rounded-full"></a></div>
+                    <div class="mr-4"><a href="#"><img src="/img/twitter/avatar.jpg" alt="avatar" class="h-8 w-8 rounded-full"></a></div>
                     <div><button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Tweet</button></div>
                 </div>
             </div> <!-- end container -->
@@ -38,7 +38,7 @@
         <div class="bg-white shadow">
             <div class="container mx-auto flex flex-col lg:flex-row items-center lg:relative">
                 <div class="w-full lg:w-1/4">
-                    <img src="/img/tailwind_logo.jpg" alt="logo" class="rounded-full h-48 w-48 lg:absolute lg:pin-l lg:pin-t lg:-mt-24">
+                    <img src="/img/twitter/tailwind_logo.jpg" alt="logo" class="rounded-full h-48 w-48 lg:absolute lg:pin-l lg:pin-t lg:-mt-24">
                 </div>
                 <div class="w-full lg:w-1/2">
                     <ul class="list-reset flex">
@@ -105,26 +105,26 @@
                 <div class="mb-4"><i class="fa fa-user fa-lg text-grey-dark mr-1"></i><a href="#">27 Followers you know</a></div>
 
                 <div class="mb-4">
-                    <a href="#"><img src="/img/follower01.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower02.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower03.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower04.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower05.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower06.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower07.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower08.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower09.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
-                    <a href="#"><img src="/img/follower10.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower01.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower02.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower03.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower04.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower05.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower06.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower07.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower08.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower09.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
+                    <a href="#"><img src="/img/twitter/follower10.jpg" alt="avatar" class="rounded-full h-12 w-12"></a>
                 </div>
 
                 <div class="mb-4"><i class="fa fa-picture-o fa-lg text-grey-dark mr-1"></i><a href="#">Photos and videos</a></div>
 
                 <div class="mb-4">
-                    <a href="#"><img src="/img/photo1.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
-                    <a href="#"><img src="/img/photo2.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
-                    <a href="#"><img src="/img/photo3.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
-                    <a href="#"><img src="/img/photo4.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
-                    <a href="#"><img src="/img/photo5.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo1.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo2.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo3.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo4.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
+                    <a href="#"><img src="/img/twitter/photo5.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
                 </div>
             </div>
 
@@ -140,7 +140,7 @@
                 <div class="flex border-b border-solid border-grey-light">
                     <div class="w-1/8 text-right pl-3 pt-3">
                         <div><i class="fa fa-thumb-tack text-teal mr-2"></i></div>
-                        <div><a href="#"><img src="/img/avatar_tailwind.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                        <div><a href="#"><img src="/img/twitter/avatar_tailwind.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
                     </div>
                     <div class="w-7/8 p-3 pl-0">
                         <div class="text-xs text-grey-dark">Pinned Tweet</div>
@@ -161,7 +161,7 @@
                                 <p class="mb-6">🎉 Tailwind CSS v0.4.0 is out!</p>
                                 <p class="mb-6">Makes `apply` more useful when using !important utilities, and includes an improved default color palette:</p>
                                 <p class="mb-4"><a href="#">github.com/tailwindcss/ta...</a></p>
-                                <p><a href="#"><img src="/img/tweet1.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
+                                <p><a href="#"><img src="/img/twitter/tweet1.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
                             </div>
                         </div>
 
@@ -178,7 +178,7 @@
 
                     <div class="w-1/8 text-right pl-3 pt-3">
                         <div><i class="fa fa-retweet text-grey-dark mr-2"></i></div>
-                        <div><a href="#"><img src="/img/avatar_adam.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                        <div><a href="#"><img src="/img/twitter/avatar_adam.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
                     </div>
 
                     <div class="w-7/8 p-3 pl-0">
@@ -199,7 +199,7 @@
                                 <p class="mb-6">💥 Check out this Slack clone built with <a href="#">@tailwindcss</a> using no custom CSS and just the default configuration:</p>
                                 <p class="mb-4"><a href="#">https://codepen.io/adamwathan/pen/JOQWVa...</a></p>
                                 <p class="mb-6">(based on some work <a href="#">@Killgt</a> started for <a href="#">tailwindcomponents.com</a> !)</p>
-                                <p><a href="#"><img src="/img/tweet2.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
+                                <p><a href="#"><img src="/img/twitter/tweet2.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
                             </div>
                             <div class="pb-2">
                                 <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 19</a></span>
@@ -216,7 +216,7 @@
                 <div class="flex border-b border-solid border-grey-light">
 
                     <div class="w-1/8 text-right pl-3 pt-3">
-                        <div><a href="#"><img src="/img/avatar_tailwind.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                        <div><a href="#"><img src="/img/twitter/avatar_tailwind.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
                     </div>
 
                     <div class="w-7/8 p-3 pl-0">
@@ -237,7 +237,7 @@
                                 <p class="mb-4">Enable/disable modules, focus and group-hover variants, new utilities, and more.</p>
                                 <p class="mb-4">Learn more in our upgrade guide:</p>
                                 <p class="mb-6"><a href="#">github.com/tailwind/ta...</a></p>
-                                <p><a href="#"><img src="/img/tweet3.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
+                                <p><a href="#"><img src="/img/twitter/tweet3.jpg" alt="tweet image" class="border border-solid border-grey-light rounded-sm"></a></p>
                             </div>
                             <div class="pb-2">
                                 <span class="mr-8"><a href="#" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 6</a></span>
@@ -253,7 +253,7 @@
 
                     <div class="w-1/8 text-right pl-3 pt-3">
                         <div><i class="fa fa-retweet text-grey-dark mr-2"></i></div>
-                        <div><a href="#"><img src="/img/avatar_egghead.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
+                        <div><a href="#"><img src="/img/twitter/avatar_egghead.jpg" alt="avatar" class="rounded-full h-12 w-12 mr-2"></a></div>
                     </div>
 
                     <div class="w-7/8 p-3 pl-0">
@@ -274,7 +274,7 @@
                                 <p class="mb-6">Create a Responsive Card Component by Composing Tailwind's Utility Classes - <a href="#">#html</a> lesson by <a href="#">@simonswiss</a></p>
                                 <div class="flex border border-solid border-grey-light rounded">
                                     <div class="w-1/4">
-                                        <img src="/img/tweet4.jpg" alt="image">
+                                        <img src="/img/twitter/tweet4.jpg" alt="image">
                                     </div>
                                     <div class="w-3/4 p-3">
                                         <div class="font-bold mb-1">egghead Lesson: Abstract utility classes to ...</div>
@@ -307,7 +307,7 @@
 
                     <div class="flex border-b border-solid border-grey-light">
                         <div class="py-2">
-                            <a href="#"><img src="/img/follow1.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                            <a href="#"><img src="/img/twitter/follow1.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
                         </div>
                         <div class="pl-2 py-2 w-full">
                             <div class="flex justify-between mb-1">
@@ -328,7 +328,7 @@
                     </div>
                     <div class="flex border-b border-solid border-grey-light">
                         <div class="py-2">
-                            <a href="#"><img src="/img/follow2.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                            <a href="#"><img src="/img/twitter/follow2.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
                         </div>
                         <div class="pl-2 py-2 w-full">
                             <div class="flex justify-between mb-1">
@@ -350,7 +350,7 @@
 
                     <div class="flex border-b border-solid border-grey-light">
                         <div class="py-2">
-                            <a href="#"><img src="/img/follow3.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                            <a href="#"><img src="/img/twitter/follow3.jpg" alt="follow1" class="rounded-full h-12 w-12"></a>
                         </div>
                         <div class="pl-2 py-2 w-full">
                             <div class="flex justify-between mb-1">
@@ -372,7 +372,7 @@
 
                     <div class="flex border-b border-solid border-grey-light">
                         <div class="py-4">
-                            <a href="#" class=" p-1"><img src="/img/outlook.png" alt="follow1" class="rounded h-6 w-6"></a>
+                            <a href="#" class=" p-1"><img src="/img/twitter/outlook.png" alt="follow1" class="rounded h-6 w-6"></a>
                         </div>
                         <div class="pl-2 py-2 w-full">
                             <div class="flex justify-between">

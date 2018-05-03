@@ -11,18 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/youtube', function () {
-    return view('youtube');
-});
-
-Route::get('/wp-pusher', function () {
-    return view('wp-pusher');
-});
-
-Route::get('/resolute', function () {
-    return view('resolute');
-});
+Route::view('/', 'list');
+Route::view('/twitter', 'twitter');
+Route::view('/youtube', 'youtube');
+Route::view('/wp-pusher', 'wp-pusher');
+Route::view('/resolute', 'resolute');
