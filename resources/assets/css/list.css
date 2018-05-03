@@ -41,6 +41,10 @@ a {
   @apply .text-black;
 }
 
+.bg-image {
+  background-image: url('/img/list/background.png');
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
