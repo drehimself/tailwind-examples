@@ -537,16 +537,6 @@ ul {
 }
 
 /**
- * Suppress the focus outline on elements that cannot be accessed via keyboard.
- * This prevents an unwanted focus outline from appearing around elements that
- * might still respond to pointer events.
- */
-
-[tabindex="-1"]:focus {
-  outline: none !important;
-}
-
-/**
  * Tailwind custom reset styles
  */
 
@@ -607,6 +597,7 @@ textarea {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 button,
@@ -644,6 +635,10 @@ textarea::placeholder {
 button,
 [role=button] {
   cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 /**
@@ -1741,6 +1736,14 @@ a {
 
 .bg-contain {
   background-size: contain;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-separate {
+  border-collapse: separate;
 }
 
 .border-transparent {
@@ -3927,6 +3930,14 @@ a {
   opacity: 1;
 }
 
+.outline-none {
+  outline: 0;
+}
+
+.focus\:outline-none:focus {
+  outline: 0;
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -3949,6 +3960,22 @@ a {
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
 }
 
 .overflow-x-scroll {
@@ -5395,15 +5422,15 @@ a {
   grid-auto-flow: dense;
 }
 
-.grid-gap-0 {
+.grid-gap-30 {
   grid-gap: 0;
 }
 
-.grid-gap-4 {
+.grid-gap-34 {
   grid-gap: 1rem;
 }
 
-.grid-gap-8 {
+.grid-gap-38 {
   grid-gap: 2rem;
 }
 
@@ -8647,6 +8674,22 @@ a {
     overflow-y: auto;
   }
 
+  .sm\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .sm\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .sm\:overflow-x-visible {
+    overflow-x: visible;
+  }
+
+  .sm\:overflow-y-visible {
+    overflow-y: visible;
+  }
+
   .sm\:overflow-x-scroll {
     overflow-x: scroll;
   }
@@ -9727,7 +9770,7 @@ a {
     font-size: 3rem;
   }
 
-  .sm\:text-5\.5xl {
+  .text-5\.sm\:5xl {
     font-size: 4.125rem;
   }
 
@@ -10083,15 +10126,15 @@ a {
     grid-auto-flow: dense;
   }
 
-  .sm\:grid-gap-0 {
+  .sm\:grid-gap-30 {
     grid-gap: 0;
   }
 
-  .sm\:grid-gap-4 {
+  .sm\:grid-gap-34 {
     grid-gap: 1rem;
   }
 
-  .sm\:grid-gap-8 {
+  .sm\:grid-gap-38 {
     grid-gap: 2rem;
   }
 
@@ -13204,6 +13247,22 @@ a {
     overflow-y: auto;
   }
 
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .md\:overflow-x-visible {
+    overflow-x: visible;
+  }
+
+  .md\:overflow-y-visible {
+    overflow-y: visible;
+  }
+
   .md\:overflow-x-scroll {
     overflow-x: scroll;
   }
@@ -14284,7 +14343,7 @@ a {
     font-size: 3rem;
   }
 
-  .md\:text-5\.5xl {
+  .text-5\.md\:5xl {
     font-size: 4.125rem;
   }
 
@@ -14640,15 +14699,15 @@ a {
     grid-auto-flow: dense;
   }
 
-  .md\:grid-gap-0 {
+  .md\:grid-gap-30 {
     grid-gap: 0;
   }
 
-  .md\:grid-gap-4 {
+  .md\:grid-gap-34 {
     grid-gap: 1rem;
   }
 
-  .md\:grid-gap-8 {
+  .md\:grid-gap-38 {
     grid-gap: 2rem;
   }
 
@@ -17761,6 +17820,22 @@ a {
     overflow-y: auto;
   }
 
+  .lg\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .lg\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .lg\:overflow-x-visible {
+    overflow-x: visible;
+  }
+
+  .lg\:overflow-y-visible {
+    overflow-y: visible;
+  }
+
   .lg\:overflow-x-scroll {
     overflow-x: scroll;
   }
@@ -18841,7 +18916,7 @@ a {
     font-size: 3rem;
   }
 
-  .lg\:text-5\.5xl {
+  .text-5\.lg\:5xl {
     font-size: 4.125rem;
   }
 
@@ -19197,15 +19272,15 @@ a {
     grid-auto-flow: dense;
   }
 
-  .lg\:grid-gap-0 {
+  .lg\:grid-gap-30 {
     grid-gap: 0;
   }
 
-  .lg\:grid-gap-4 {
+  .lg\:grid-gap-34 {
     grid-gap: 1rem;
   }
 
-  .lg\:grid-gap-8 {
+  .lg\:grid-gap-38 {
     grid-gap: 2rem;
   }
 
@@ -22318,6 +22393,22 @@ a {
     overflow-y: auto;
   }
 
+  .xl\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .xl\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .xl\:overflow-x-visible {
+    overflow-x: visible;
+  }
+
+  .xl\:overflow-y-visible {
+    overflow-y: visible;
+  }
+
   .xl\:overflow-x-scroll {
     overflow-x: scroll;
   }
@@ -23398,7 +23489,7 @@ a {
     font-size: 3rem;
   }
 
-  .xl\:text-5\.5xl {
+  .text-5\.xl\:5xl {
     font-size: 4.125rem;
   }
 
@@ -23754,15 +23845,15 @@ a {
     grid-auto-flow: dense;
   }
 
-  .xl\:grid-gap-0 {
+  .xl\:grid-gap-30 {
     grid-gap: 0;
   }
 
-  .xl\:grid-gap-4 {
+  .xl\:grid-gap-34 {
     grid-gap: 1rem;
   }
 
-  .xl\:grid-gap-8 {
+  .xl\:grid-gap-38 {
     grid-gap: 2rem;
   }
 
