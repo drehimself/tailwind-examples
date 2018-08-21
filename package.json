@@ -24,6 +24,9 @@
     },
     "dependencies": {
         "glhd-tailwindcss-transitions": "^0.3.0",
+        "glob-all": "^3.1.0",
+        "laravel-mix-purgecss": "^2.2.3",
+        "purgecss-webpack-plugin": "^1.2.1",
         "tailwindcss-tables": "^0.2.0"
     }
 }
