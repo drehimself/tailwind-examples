@@ -2,7 +2,7 @@
 
 A collection of web pages and web components built in Tailwind CSS.
 
-Website: [https://tailwindcss.andremadarang.com](https://tailwindcss.andremadarang.com)
+Website: [https://tailwindcss.andredemos.ca](https://tailwindcss.andredemos.ca)
 
 Screencasts: [YouTube link](https://www.youtube.com/playlist?list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
 
